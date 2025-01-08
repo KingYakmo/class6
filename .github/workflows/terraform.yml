@@ -115,7 +115,7 @@ on:
 permissions:
   contents: read
 
-jobs:
+run:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
