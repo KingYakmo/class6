@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Checkout code') {
             steps {
-                git branch: 'main', url: 'https://github.com/KingYakmo/learn-terraform-github-actions.git'
+                git branch: 'main', url: 'https://github.com/KingYakmo/class6.git'
             }
         }
         stage('Initialize Terraform') {
