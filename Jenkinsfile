@@ -3,6 +3,7 @@ pipeline {
     envioronment {
         AWS_REGION = 'eu-west-1'
     }
+}
     stages {    
         stage("Set AWS Credentials") {
             steps {
@@ -15,6 +16,7 @@ pipeline {
                     aws sts get-caller-identity
                     '''
                 }
+        }
         }
         stage('Checkout code') {
             steps {
