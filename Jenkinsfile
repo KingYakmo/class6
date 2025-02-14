@@ -11,7 +11,7 @@ pipeline {
                 withCredentials([
                     [
                         $class: 'AmazonWebServicesCredentialsBinding', 
-                        credentialsId: 'AWS-Jenkins'
+                        credentialsId: 'Jenkins'
                     ]
                 ]) {
                     sh '''
@@ -39,7 +39,7 @@ pipeline {
                 withCredentials([
                     [
                         $class: 'AmazonWebServicesCredentialsBinding', 
-                        credentialsId: 'AWS-Jenkins'
+                        credentialsId: 'Jenkins'
                     ]
                 ]) {
                     sh '''
@@ -57,7 +57,7 @@ pipeline {
                 withCredentials([
                     [
                         $class: 'AmazonWebServicesCredentialsBinding', 
-                        credentialsId: 'AWS-Jenkins'
+                        credentialsId: 'Jenkins'
                     ]
                 ]) {
                     sh '''
@@ -75,7 +75,7 @@ pipeline {
                 withCredentials([
                     [
                         $class: 'AmazonWebServicesCredentialsBinding', 
-                        credentialsId: 'AWS-Jenkins'
+                        credentialsId: 'Jenkins'
                     ]
                 ]) {
                     sh '''
